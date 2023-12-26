@@ -1,6 +1,7 @@
-.journey{
-    background-color: #3E4C3D;
-    min-height: 990px;
+@import url(../styles/header.css);
+.journey {
+  background-color: #3e4c3d;
+  min-height: 990px;
 }
 .container{
     margin: 0 auto;
