@@ -1,0 +1,49 @@
+.header {
+  background-image: url(../assets/images/header__background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.header__description1 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25.2px;
+  align-content: center;
+}
+.header__description2 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 25.2px;
+  align-content: center;
+}
+.header__circle1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: 110px;
+  left: 120px;
+  border: 2px #fff solid;
+  z-index: 1;
+}
+.header__circle2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: 110px;
+  right: 120px;
+  border: 2px #fff solid;
+  z-index: 1;
+}
+.header__circle3 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: -130px;
+  left: 310px;
+  border: 2px #fff solid;
+  z-index: 1;
+}
