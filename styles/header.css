@@ -1,0 +1,75 @@
+.header {
+  background-image: url(../assets/images/header__background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.header__description1 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25.2px;
+  align-content: center;
+  text-align: center;
+}
+.header__description2 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25.2px;
+  align-content: center;
+  text-align: center;
+}
+.header__circle1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: 110px;
+  left: 140px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  z-index: 1;
+}
+.header__circle2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: 110px;
+  right: 140px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  z-index: 1;
+}
+.header__circle3 {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  top: -120px;
+  left: 320px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  z-index: 1;
+}
+.header__description-circle1 {
+  position: absolute;
+  max-width: 200px;
+  max-height: 250px;
+  top: 400px;
+  left: 115px;
+}
+.header__description-circle2 {
+  position: absolute;
+  max-width: 200px;
+  max-height: 250px;
+  top: 200px;
+  right: 115px;
+}
+.header__membership {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #b5d8d6;
+  top: 90px;
+  left: 220px;
+  z-index: 1;
+}
