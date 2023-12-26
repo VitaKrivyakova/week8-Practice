@@ -7,15 +7,17 @@
 }
 .header__description1 {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 25.2px;
   align-content: center;
+  text-align: center;
 }
 .header__description2 {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 25.2px;
   align-content: center;
+  text-align: center;
 }
 .header__circle1 {
   position: absolute;
@@ -23,8 +25,8 @@
   width: 600px;
   height: 600px;
   top: 110px;
-  left: 120px;
-  border: 2px #fff solid;
+  left: 140px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
   z-index: 1;
 }
 .header__circle2 {
@@ -33,8 +35,8 @@
   width: 600px;
   height: 600px;
   top: 110px;
-  right: 120px;
-  border: 2px #fff solid;
+  right: 140px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
   z-index: 1;
 }
 .header__circle3 {
@@ -42,8 +44,32 @@
   border-radius: 50%;
   width: 600px;
   height: 600px;
-  top: -130px;
-  left: 310px;
-  border: 2px #fff solid;
+  top: -120px;
+  left: 320px;
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  z-index: 1;
+}
+.header__description-circle1 {
+  position: absolute;
+  max-width: 200px;
+  max-height: 250px;
+  top: 400px;
+  left: 115px;
+}
+.header__description-circle2 {
+  position: absolute;
+  max-width: 200px;
+  max-height: 250px;
+  top: 200px;
+  right: 115px;
+}
+.header__membership {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #b5d8d6;
+  top: 90px;
+  left: 220px;
   z-index: 1;
 }
