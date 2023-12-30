@@ -19,95 +19,81 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .header__main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  margin: 5% 10%;
 }
 .header__title {
+  grid-area: 2/2/5/3;
   color: #fff;
+  text-align: center;
+  font-family: "SaolDisplay-Regular";
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  z-index: 3;
+}
+.teaches {
+  font-family: "Untitled Sans Regular";
+}
+.us {
+  font-family: "SaolDisplay-Regular";
+  font-style: italic;
+  text-transform: lowercase;
+}
+.header__description {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25.2px;
+  align-content: center;
+  text-align: center;
 }
 .header__description1 {
-  color: #fff;
-  font-size: 14px;
-  line-height: 25.2px;
-  align-content: center;
-  text-align: center;
-}
-.header__description2 {
-  color: #fff;
-  font-size: 14px;
-  line-height: 25.2px;
-  align-content: center;
-  text-align: center;
-}
-.header__circles {
-}
-.header__circle1 {
-  position: relative;
-  border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  top: 110px;
-  left: 140px;
-  border: 2px rgba(255, 255, 255, 0.3) solid;
-  z-index: 1;
-}
-.header__circle2 {
-  position: relative;
-  border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  top: 110px;
-  right: 140px;
-  border: 2px rgba(255, 255, 255, 0.3) solid;
-  z-index: 1;
-}
-.header__circle3 {
-  position: relative;
-  border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  top: -120px;
-  left: 320px;
-  border: 2px rgba(255, 255, 255, 0.3) solid;
-  z-index: 1;
-}
-.header__description-circle1 {
-  position: absolute;
+  grid-area: 4/1/5/2;
   max-width: 200px;
   max-height: 250px;
-  top: 400px;
-  left: 115px;
 }
-.header__description-circle2 {
-  position: absolute;
+.header__description2 {
+  grid-area: 2/3/3/4;
   max-width: 200px;
   max-height: 250px;
   top: 200px;
   right: 115px;
 }
 .header__membership {
-  position: absolute;
+  grid-area: 1/1/2/2;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background-color: #b5d8d6;
   top: 90px;
   left: 220px;
-  z-index: 1;
+  z-index: 3;
 }
 .header__whitelist {
-  position: absolute;
+  grid-area: 4/3/5/4;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-color: #f0bb82;
   top: 410px;
   right: 100px;
-  z-index: 1;
+  z-index: 3;
 }
-.membership {
-  position: relative;
+.whitelist {
   font-size: 14px;
   text-align: center;
+  padding-top: 35px;
+  margin: 0;
+}
+.membership {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 60px;
+  margin: 0;
 }
