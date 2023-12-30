@@ -2,7 +2,7 @@
   background-image: url(../assets/images/header__background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 }
 
 .header:after {
@@ -19,7 +19,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.nav__wallet {
+  background-color: #323232;
+  color: #fff;
+  margin: 20px 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  opacity: 0.5;
+  z-index: 3;
+  border-style: none;
+}
+.nav__logo {
+  margin: 20px;
+  padding-left: 40px;
+}
 .header__main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
