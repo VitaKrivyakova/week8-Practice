@@ -1,0 +1,162 @@
+@media screen and (max-width: 1580px) and (min-width: 1025px){
+.container{
+    max-width: 1420px;
+}
+.journey-text{
+  display: block;
+}
+.journey-title{
+  margin: 60px auto;  
+}
+.journey-title_first, .journey-title_second{
+  font-size: 8em;
+}
+.journey-sub-title{
+  display: block;
+  text-align: center;
+}
+.journey-sub-title__h4{
+  font-size: 3em;
+}
+.journey-sub-title__p{
+  font-size: 1em;
+}
+.journey-img__item, .journey-img__item_center{
+  max-width: 100%;
+}
+.journey-img__container_center{
+  padding: 0 2em 0 2em; 
+}
+.roadmap-article {
+    min-width: 300px;
+}
+.roadmap_center {
+    min-width: 50px;
+}
+.roadmap__line_11{
+    height: 500px;
+}
+.roadmap-date{
+    display: none;
+}
+.roadmap-article__title,
+.roadmap-date__date-item_1{
+    display: none;
+}
+.roadmap-article__title_for-media{
+    display: flex;
+    align-items: center;
+    min-width: 460px;
+    padding-bottom: 20px;
+}
+.roadmap-article__title_for-media1{
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+.roadmap-article__text{
+    font-size: 18px;
+}
+.roadmap__points{
+    margin: 0 5px 0 10px;
+}
+.roadmap-article__img {
+    max-width: 100%;
+    padding: 40px 0 150px 0;
+}
+.roadmap-article__text_left_without-img{
+    padding-bottom: 220px;
+}
+.roadmap-article__text_right_without-img1{
+    padding-bottom: 130px;
+}
+.roadmap-article__text_right_without-img2{
+    padding-bottom: 168px;
+}
+.roadmap-article__text_right_without-img3{
+    padding-bottom: 222px;
+}
+}
+@media screen and (max-width: 1024px){
+.container{
+    max-width: 740px;
+  }
+.journey-title_first, .journey-title_second{
+    font-size: 4em;
+}
+.journey-text{
+    display: block;
+}
+.journey-sub-title{
+  display: block;
+  text-align: center;
+  margin: 550px auto 0 auto;
+}
+.arrow {
+  display: none;
+}
+.journey-sub-title__h4{
+  font-size: 3em;
+}
+.journey-sub-title__p{
+  font-size: 1em;
+}
+.journey-img{
+  padding-top: 180px;
+}
+.journey-img__item_center{
+  min-width: 240px;
+}
+.journey-img__item{
+  min-width: 150px;
+}
+.roadmap-flex {
+  display: block;
+  text-align: center;
+}
+.roadmap-title__h4 {
+  font-size: 3em;
+}
+.roadmap-title__text {
+  font-size: 1em;
+  padding-bottom: 137px;
+}
+.roadmap-article {
+    min-width: 260px;
+}
+.roadmap-article_left, .roadmap-article_right, .roadmap_center {
+    text-align: left;
+  }
+.roadmap_center, .roadmap_right, .roadmap-article_left {
+    display: none;
+}
+.roadmap-article_for-media{
+    display: block;
+    padding-bottom: 41px;
+  }
+.roadmap__points_vertical{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.roadmap__img_media{
+    max-width: 380px;
+}
+.roadmap-article__img {
+    max-width: 80%;
+    padding: 12px 0;
+  }
+.roadmap__line_for-media{
+    height: 50px;
+    margin: 15px 0 24px 12px;
+}
+.roadmap-article__text_right_without-img1,
+.roadmap-article__text_right_without-img2,
+.roadmap-article__text_right_without-img3,
+.roadmap-article__text_left_without-img1,
+.roadmap-article__text_left_without-img2,
+.roadmap-article__text_left_without-img{
+    padding-bottom: 15px;
+}
+}
