@@ -46,7 +46,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: repeat(5, 1fr);
-  margin: 5% 10%;
+  margin: 5% 10% 0 10%;
 }
 .header__title {
   grid-area: 2/2/5/3;
