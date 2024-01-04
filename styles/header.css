@@ -35,6 +35,9 @@
   z-index: 3;
   border-style: none;
 }
+.nav__wallet-media {
+  visibility: hidden;
+}
 .nav__logo {
   margin: 20px;
   padding-left: 40px;
@@ -240,4 +243,112 @@
   height: 20%;
   padding-right: 5%;
   opacity: 0.7;
+}
+@media screen and (max-width: 767px) {
+  .nav__wallet {
+    visibility: hidden;
+  }
+  .header__main {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+  }
+  .header__title {
+    color: #fff;
+    text-align: center;
+    font-family: "SaolDisplay-Regular";
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    z-index: 3;
+  }
+  .teaches {
+    font-family: "Untitled Sans Regular";
+  }
+  .us {
+    font-family: "SaolDisplay-Regular";
+    font-style: italic;
+    text-transform: lowercase;
+  }
+  .header__description {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25.2px;
+    align-content: center;
+    text-align: center;
+  }
+  .header__description1 {
+    visibility: hidden;
+    grid-area: 4/1/5/2;
+    max-width: 200px;
+    max-height: 250px;
+  }
+  .header__membership {
+    grid-area: 1/1/2/2;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #b5d8d6;
+    top: 90px;
+    left: 220px;
+    z-index: 3;
+  }
+  .header__whitelist {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0bb82;
+    z-index: 3;
+  }
+  .whitelist {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .membership {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0;
+  }
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__box {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+
+    width: 100vw;
+    height: fit-content;
+    margin: 0;
+    padding: 10% 10%;
+
+    list-style: none;
+    background-image: url(../assets/images/background-menu.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #2e2f30;
+    box-shadow: 1px 0px 6px rgba(101, 97, 97, 0.2);
+    opacity: 1;
+    transition-duration: 0.25s;
+    z-index: 4;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+  .menu__item-right {
+    padding: 12px 24px;
+    color: #a39d9d;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
 }

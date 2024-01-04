@@ -86,3 +86,71 @@
   grid-area: aside;
   writing-mode: vertical-lr;
 }
+@media screen and (max-width: 767px) {
+  .longevity__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .longevity__rediscoverder {
+    font-family: "SaolDisplay-Regular";
+    font-size: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 0.2px solid rgba(255, 255, 255, 0.2);
+  }
+  .rediscovered {
+    justify-self: end;
+    font-family: "SaolDisplay-Regular";
+    font-style: italic;
+    color: #a6857e;
+    padding-left: 30px;
+  }
+  .longevity__description {
+    font-weight: 100;
+    font-size: 16px;
+    padding-left: 20px;
+    color: white;
+    line-height: 1.6em;
+    width: 100%;
+  }
+  .longevity__fromabove {
+    grid-area: above;
+    width: 100%;
+    height: fit-content;
+  }
+  .longevity__bath {
+    grid-area: bath;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    border-style: none;
+  }
+
+  .longevity__oya {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "SaolDisplay-Regular";
+    font-size: 40px;
+    color: white;
+    white-space: pre-line;
+    padding-top: 5%;
+  }
+  .longevity__oya-pink {
+    color: #a6857e;
+    font-family: "SaolDisplay-Regular";
+  }
+  .longevity__offers {
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    width: 90%;
+    height: 50%;
+    line-height: 1.5em;
+  }
+  .longevity__aside {
+    visibility: collapse;
+  }
+}
